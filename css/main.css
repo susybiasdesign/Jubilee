@@ -1,0 +1,181 @@
+
+/* BASE STYLES */
+
+body {font-family: 'Source Sans Pro', sans-serif;}
+
+#about, #work, #contact {height:600px;}
+
+
+/* GRIDS */
+
+.full-width {
+		width:1200px;
+		margin: 0 auto;
+		}
+.half-width {
+		width:600px;
+		float:left;
+		}
+.third-width {
+		width:400px;
+		float:left;
+		}
+
+
+
+/* HEADER */
+
+header {height: 800px;
+		background-image: url("../images/hero.png"); 
+		background-size: cover;
+		}
+
+
+header h1 {
+		color:#bbc085;
+		font-family: 'Lora';
+		font-size: 30px;
+		padding: 50px 0;
+		}
+
+nav {
+		float: right;
+		padding: 75px 40px;
+		}
+
+nav ul li {
+		display: inline-block;
+}
+
+nav ul li a {
+		list-style: none;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #828282;
+		font-size: 18px;
+		padding-left: 80px;
+}
+
+header h2 {
+		color: #9b9b9b;
+		font-family: 'Lora';
+		font-size: 72px;
+		padding-right: 50px;
+		}
+header span {color:#2b2b2b;}
+
+
+
+
+
+/* ABOUT */
+
+
+#about .full-width {
+		padding:80px 0;}
+
+
+#about h2 {
+		color:#2b2b2b;
+		font-family: 'Lora', serif;
+		font-size: 36px;
+		}
+
+#about p {
+		color:#7f7f7f;
+		font-size: 21px;
+		line-height: 40px;
+		padding-right: 50px;
+		}
+
+/* WORK */ 
+
+#work 	{
+		background-color: #f9ceb7;
+		text-align: center;
+		}
+
+#work .full-width {
+		padding: 115px 0;	
+		}
+
+#work img {
+		padding-bottom: 30px;
+		}
+
+#work h3 {
+		color: #2b2b2b;
+		font-size: 24px;
+		margin-top: 0px;
+		padding:10px 105px;
+		}
+
+#work p {
+		color: #2b2b2b;
+		font-family: 'Lora', serif;
+		font-size: 18px;
+		line-height: 30px;
+		padding: 0 35px;
+		}
+
+#contact {
+		background-color: #ebebeb;
+		}
+
+#contact .full-width {
+		padding: 110px 0;	
+		}
+
+
+#contact-img {
+		border: solid 12px #ffffff;
+		}
+
+#contact h2, 
+#email-header, 
+#socialmedia-header, 
+#contact ul {
+   		padding-left: 115px;
+		}
+
+#envelope {
+   		padding-left: 115px;
+		}
+
+#contact h2 {
+		color: #2b2b2b;
+		font-family: 'Lora';
+		font-size: 36px;
+		}
+
+#email-header{
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+	}
+
+#socialmedia-header {
+    color: #2b2b2b;
+    font-weight: 700;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+	}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0px;
+
+	}
+
+
+#contact ul {list-style: none;}
+#contact ul li {display: inline-block;}
+#contact ul img {padding-right: 48px;}
+
+
+
+
+
